@@ -1,3 +1,4 @@
 Django
 Pillow 
 celery
+# flower # Alternative for UI web task manager
