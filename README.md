@@ -10,13 +10,13 @@ Steps to run in local:
 2. Create a new virtual environment
 
    ```bash
-   python -m venv venv/myshop
+   python -m venv venv/ecommerce
    ```
 
 3. Activate the virtual environment:
 
    ```bash
-   source venv/myshop/bin/activate
+   source venv/ecommerce/bin/activate
    ```
 
 4. Run the project:
