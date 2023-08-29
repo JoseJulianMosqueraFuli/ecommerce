@@ -9,6 +9,7 @@ https://docs.djangoproject.com/en/4.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.2/ref/settings/
 """
+import os
 
 from pathlib import Path
 
@@ -130,6 +131,7 @@ MEDIA_URL = "media/"
 MEDIA_ROOT = BASE_DIR / "media"
 
 CART_SESSION_ID = "cart"
+
 # Email server configuration
 EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
 # User configuration email with ENVIROMENT variables
@@ -138,3 +140,8 @@ EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
 # EMAIL_HOST_PASSWORD = os.getenv("EMAIL_PASSWORD")
 # EMAIL_PORT = 587
 # EMAIL_USE_TLS = True
+
+# Stripe settings
+STRIPE_PUBLISHABLE_KEY = os.getenv("STRIPE_PUBLISH_KEY")
+STRIPE_SECRET_KEY = os.getenv("STRIPE_SECRET_KEY")
+STRIPE_API_VERSION = "2023-08-16"
