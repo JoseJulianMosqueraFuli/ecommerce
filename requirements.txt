@@ -1,5 +1,6 @@
 Django
 Pillow 
 celery
-# flower # Alternative for UI web task manager
+flower # Alternative for UI web task manager
 stripe
+dotenv
