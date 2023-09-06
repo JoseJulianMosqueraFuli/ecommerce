@@ -151,3 +151,6 @@ EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
 STRIPE_PUBLISHABLE_KEY = os.getenv("STRIPE_PUBLISH_KEY")
 STRIPE_SECRET_KEY = os.getenv("STRIPE_SECRET_KEY")
 STRIPE_API_VERSION = "2023-08-16"
+
+# Webhook
+STRIPE_WEBHOOK_SECRET = os.getenv("STRIPE_WEBHOOK_SECRET")

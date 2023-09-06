@@ -3,4 +3,4 @@ Pillow
 celery
 flower # Alternative for UI web task manager
 stripe
-dotenv
+python-dotenv
