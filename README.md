@@ -28,6 +28,8 @@ Steps to run in local:
    ```bash
    docker pull rabbitmq:3-management
    docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3-management
+   docker pull stripe/stripe-cli:v1.17.2
+   docker run --rm -it stripe/stripe-cli listen --forward-to localhost:80000/payment/webhook/    --api-keys sk_test..
    ```
 
 ## License
