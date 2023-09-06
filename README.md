@@ -32,6 +32,8 @@ Steps to run in local:
    docker run --rm -it stripe/stripe-cli listen --forward-to localhost:80000/payment/webhook/    --api-keys sk_test..
    ```
 
+   **Note**: More information about strip docker [here](https://stripe.com/docs/cli/docker)
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
