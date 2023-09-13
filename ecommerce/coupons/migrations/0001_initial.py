@@ -35,7 +35,7 @@ class Migration(migrations.Migration):
                         ],
                     ),
                 ),
-                ("activate", models.BooleanField(default=False)),
+                ("active", models.BooleanField(default=False)),
             ],
         ),
     ]
