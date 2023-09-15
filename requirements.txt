@@ -5,3 +5,4 @@ flower # Alternative for UI web task manager
 stripe
 python-dotenv
 WeasyPrint
+redis

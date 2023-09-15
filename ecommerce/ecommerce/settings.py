@@ -156,3 +156,8 @@ STRIPE_API_VERSION = "2023-08-16"
 
 # Webhook
 STRIPE_WEBHOOK_SECRET = os.getenv("STRIPE_WEBHOOK_SECRET")
+
+# Redis settings
+REDIS_HOST = "localhost"
+REDIS_PORT = 6379
+REDIS_DB = 1

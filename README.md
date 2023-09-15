@@ -58,6 +58,13 @@ Steps to run in local, do you requiere python 3.x and docker installed:
 
    **Note**: More information about stripe docker [here](https://stripe.com/docs/cli/docker)
 
+9. Run for redis container:
+
+   ```bash
+   docker pull redis
+   docker run -it --rm --name redis -p 6379:6379 redis
+   ```
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
