@@ -13,6 +13,7 @@ import os
 
 from dotenv import load_dotenv
 from pathlib import Path
+from django.utils.translation import gettext_lazy as _
 
 # Load environment variables from .env file
 load_dotenv()
@@ -121,6 +122,10 @@ LANGUAGE_CODE = "en"
 LANGUAGES = [
     ("en", _("English")),
     ("es", _("Spanish")),
+]
+
+LOCALE_PATHS = [
+    BASE_DIR / "locale",
 ]
 
 TIME_ZONE = "UTC"
